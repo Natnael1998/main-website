@@ -1,6 +1,16 @@
 let ct=false
 
+function anime(event){
+   const s = document.querySelectorAll(".bg")
+   const x = event.clientX / 20
+   const y = event.clientY / 20
+   for (let i= 0; i<s.length;++i){
+      const isOdd = i%2!==0
+      const boolin = isOdd ? -1:1;
+      s[i].style.transform = `translate(${x * boolin}px,${y * boolin}px)`
+   }
 
+}
 
 
 
@@ -59,3 +69,5 @@ function toggleModal(){
   isModalOpen = true
    document.body.classList+=" modal--open"
 }
+//just for fun
+window.alert("You got hacked bitch")

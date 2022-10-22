@@ -16,6 +16,19 @@ html {
     height: 120px;
 
 }
+.gradient-text{
+    background: linear-gradient(60deg,#9700efb9,#2ccce4,#ff000000,#37d67a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.gradient{
+    background: linear-gradient(60deg,#9900ef,#2ccce4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
 input,textarea{
     width: 100%;
     background-color: #242424;
@@ -213,17 +226,18 @@ LANDING
 }
 
 .social__link {
-    background-color: #2C5B4B;
-    color: white;
+   
+    
     padding: 6px;
-    width: 52px;
-    height: 52px;
-    font-size: 32px;
+    width: 62px;
+    height: 62px;
+    font-size: 50px;
     margin-right: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    
 }
 
 .mail__btn {
@@ -624,16 +638,73 @@ footer {
 .footer__copyright {
     color: white;
 }
+
+
+.bg{
+    position: absolute;
+    height: 15px;
+    
+
+}
+.bgg{
+    
+    top: 10%;
+    left: 90%;
+    
+    
+}
+
+
+
+.bgg-1{
+    
+    top: 30%;
+    left: 70%;
+    
+    
+}
+
+.bgg-2{
+    
+    top: 20%;
+    left: 50%;
+    
+    
+}
+.bgg-3{
+    
+    top: 15%;
+    left: 10%;
+    
+    
+}
+.bgg-4{
+    
+    top: 80%;
+    left: 50%;
+    
+    
+}
+.bgg-5{
+    
+    top: 70%;
+    left: 80%;
+    
+    
+}
 /* smart phones */
-@media (max-width:480px) {
+@media (max-width:570px) {
     .title{
         font-size: 78px;
     }
+    nav{
+        padding: 0;
+    }
     .header__para{
-        font-size: 18px;
+        font-size: 20px;
     }
     .social__link{
-        font-size: 20px;
+        font-size: 35px;
     }
     .modal{
         top: 0;
@@ -660,6 +731,7 @@ footer {
         font-size: 15px;
         
         
+        
 
     }
     #non{
@@ -680,5 +752,7 @@ footer {
   .project__description--sub-title{
     margin-bottom: 8px;
   }
+  
 
 }
+
