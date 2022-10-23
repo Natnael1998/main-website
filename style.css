@@ -168,10 +168,15 @@ nav,
 .dark-theme .section__sub-title,
 .dark-theme .nav__link--anchor,
 .dark-theme .fa-adjust,
-.dark-theme .header__para{
+.dark-theme .header__para
+{
     color:white;
 
+
     
+}
+.dark-theme .bgt{
+    display: none;
 }
 .dark-theme section{
     background-color: black;
@@ -639,7 +644,12 @@ footer {
 .footer__copyright {
     color: white;
 }
+/* 
 
+
+shapes 
+
+*/
 
 .bg{
     position: absolute;
@@ -693,7 +703,68 @@ footer {
     
     
 }
-/* smart phones */
+
+
+
+
+
+
+
+
+
+.bgt-1{
+    
+    top: 30%;
+    left: 60%;
+    
+    
+}
+
+
+
+.bgt-2{
+    
+    top: 35%;
+    left: 50%;
+    
+    
+}
+
+.bgt-3{
+    
+    top: 20%;
+    left: 30%;
+    
+    
+}
+.bgt-4{
+    
+    top: 85%;
+    left: 10%;
+    
+    
+}
+.bgt-5{
+    
+    top: 20%;
+    left: 90%;
+    
+    
+}
+.bgt-6{
+    
+    top: 45%;
+    left: 85%;
+    
+    
+}
+/* 
+
+
+smart phones
+
+
+*/
 @media (max-width:570px) {
     .title{
         font-size: 78px;
