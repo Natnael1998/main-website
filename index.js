@@ -72,4 +72,4 @@ function toggleModal(){
 //just for fun
 let ask = window.prompt("what is your name")
 
-window.alert(`Fuck you ${ask}!!`)
+window.alert(`Thank you for visting my wbesite ${ask}!!`)
