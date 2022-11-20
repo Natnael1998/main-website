@@ -18,9 +18,11 @@ html {
 
 }
 .gradient-text{
-    background: linear-gradient(60deg,#9700efb9,#2ccce4,#30f708dc,#37d67a);
+    background-image: url("./assets/bg.gif");
+    background-size: cover;
+    background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: transparent;
 
 }
 .gradient{

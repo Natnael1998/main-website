@@ -70,6 +70,6 @@ function toggleModal(){
    document.body.classList+=" modal--open"
 }
 //just for fun
-let ask = window.prompt("what is your name")
+// let ask = window.prompt("what is your name")
 
-window.alert(`Thank you for visting my wbesite ${ask}!!`)
+// window.alert(`Thank you for visting my wbesite ${ask}!!`)

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="./assets/css/blobz.min.css">;
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
@@ -23,6 +23,7 @@
     </script>
   </head>
   <body>
+    
     <section id="landing-page" onmousemove="anime(event)">
       <nav>
         <figure>
@@ -70,30 +71,32 @@
           <h1 class="title gradient-text" >Hey</h1>
           <h1 class="title gradient-text" >I'm Nati</h1>
           <p class="header__para">
-            I'm a <b class="gradient"> Fontend Software Engineer</b> with a strong
+            I'm a <b class="gradient-text"> Fontend Software Engineer</b> with a strong
             passion for hard work.
             <br />
             Here's a bit more
-            <b class="gradient click" onclick="toggleModal()">about me.</b>
+            <b class="click gradient-text" onclick="toggleModal()">about me.</b>
           </p>
           <div class="social__list">
-            <a href="" class="social__link click gradient ">
+            <a href="" class="social__link click gradient-text ">
               <i class="fab fa-linkedin-in"></i>
             </a>
 
-            <a href="https://github.com/Natnael1998" class="social__link click gradient " target="_blank">
+            <a href="https://github.com/Natnael1998" class="social__link click gradient-text " target="_blank">
               <i class="fab fa-github"></i>
             </a>
 
             <a
               href="./assets/resume.docx"
               target="_blank"
-              class="social__link click gradient "
+              class="social__link click 
+               gradient-text"
             >
               <i class="fas fa-file-pdf"></i>
             </a>
           </div>
         </div>
+        
       </header>
 <a href="#"><button class="mail__btn click" onclick="toggleModal()">
   <i class="fas fa-envelope"></i>
