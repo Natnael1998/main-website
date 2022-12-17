@@ -22,18 +22,31 @@ html {
 
 }
 .gradient-text{
-    background-image: url("https://th.bing.com/th/id/R.efa13b3c7cb2c8a9abff28e97b770843?rik=wk9YBxAzJR8iBA&riu=http%3a%2f%2fi.imgur.com%2fxlmhRJ6.gif&ehk=k5%2ffl%2f%2f0EpdsGlmXjhJNHktf1jLbFFb7gykrlldpytI%3d&risl=&pid=ImgRaw&r=0");
-    background-size: cover;
-    background-clip: text;
+    background-image: linear-gradient(rgb(185, 32, 63),coral,violet,orange,rgb(183, 185, 58),green);
     -webkit-background-clip: text;
     color: transparent;
+    background-size: 4000px 4000px;
+    animation: n 9s infinite  alternate-reverse;
+    transition: all 300ms ease;
 
 }
-.gradient{
-    background: linear-gradient(60deg,#9900ef,#2ccce4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+@keyframes n {
+    0%{
+        background-position: 0 0;
+    }
 
+    25%{
+        background-position: 0 100%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    75%{
+        background-position: 100% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
 }
 
 input,textarea{
@@ -153,6 +166,13 @@ section {
     width: 100%;
 
 }
+#logon-f{
+    color: white;
+}
+#logon{
+    font-size: 34px;
+    font-weight:900;
+}
 nav,
 .scroll,
 .header{
@@ -212,8 +232,10 @@ LANDING
 
 #landing-page {
     height: 100vh;
-  
-
+   
+    
+    
+    
 
 }
 
@@ -651,120 +673,7 @@ footer {
 .footer__copyright {
     color: white;
 }
-/* 
 
-
-shapes 
-
-*/
-
-.bg{
-    position: absolute;
-    height: 15px;
-    
-
-}
-.bgg{
-    
-    top: 10%;
-    left: 90%;
-    
-    
-}
-
-
-
-.bgg-1{
-    
-    top: 30%;
-    left: 70%;
-    
-    
-}
-
-.bgg-2{
-    
-    top: 20%;
-    left: 50%;
-    
-    
-}
-.bgg-3{
-    
-    top: 15%;
-    left: 10%;
-    
-    
-}
-.bgg-4{
-    
-    top: 80%;
-    left: 50%;
-    
-    
-}
-.bgg-5{
-    
-    top: 70%;
-    left: 80%;
-    
-    
-}
-
-
-
-
-
-
-
-
-
-.bgt-1{
-    
-    top: 30%;
-    left: 60%;
-    
-    
-}
-
-
-
-.bgt-2{
-    
-    top: 35%;
-    left: 50%;
-    
-    
-}
-
-.bgt-3{
-    
-    top: 20%;
-    left: 30%;
-    
-    
-}
-.bgt-4{
-    
-    top: 85%;
-    left: 10%;
-    
-    
-}
-.bgt-5{
-    
-    top: 20%;
-    left: 90%;
-    
-    
-}
-.bgt-6{
-    
-    top: 45%;
-    left: 85%;
-    
-    
-}
 /* 
 
 
