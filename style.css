@@ -22,32 +22,20 @@ html {
 
 }
 .gradient-text{
-    background-image: linear-gradient(rgb(185, 32, 63),coral,violet,orange,rgb(183, 185, 58),green);
-    -webkit-background-clip: text;
+    
+
+
+
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
     color: transparent;
-    background-size: 4000px 4000px;
-    animation: n 9s infinite  alternate-reverse;
-    transition: all 300ms ease;
+    -webkit-background-clip: text;
+
+    animation-direction: alternate;
 
 }
-@keyframes n {
-    0%{
-        background-position: 0 0;
-    }
 
-    25%{
-        background-position: 0 100%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    75%{
-        background-position: 100% 0;
-    }
-    100%{
-        background-position: 0 0;
-    }
-}
 
 input,textarea{
     width: 100%;
@@ -229,11 +217,19 @@ LANDING
 
 */
 
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
 
 #landing-page {
     height: 100vh;
-   
     
+  
+    
+  
+  
+
     
     
 
@@ -546,6 +542,8 @@ projects
 */
 .project {
     margin-bottom: 100px;
+    
+  
 }
 
 .section__title {
